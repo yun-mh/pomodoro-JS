@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>ポモドーロ</title>
+</head>
+<body>
+    <div class="pomodoro">
+        <div class="pomodoro__head"></div>
+        <div class="pomodoro__display">
+            <div class="pomodoro__device">
+                <div class="pomodoro__time">
+                    <span class="pomodoro__time--min"></span> : <span class="pomodoro__time--sec"></span>    
+                </div>
+            </div> 
+        </div>
+        <div class="pomodoro__controller">
+            <div class="pomodoro__btn">
+                <span class="pomodoro__btn--phase"></span>
+            </div>
+            <div class="pomodoro__btn">
+                <a class="pomodoro__btn--work" href="#"><i class="fas fa-play"></i></a>
+                <a class="pomodoro__btn--pause" href="#"><i class="fas fa-pause"></i></a>
+            </div>
+            <div class="pomodoro__btn">
+                <a class="pomodoro__btn--reset" href="#"><i class="fas fa-sync-alt"></i></a>
+            </div>    
+        </div>
+        <footer>
+            &copy; MinhoYun 2019
+        </footer>
+    </div>
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>
