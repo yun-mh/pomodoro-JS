@@ -1,0 +1,150 @@
+body {
+    background-color: #34495e;
+    margin: 0;
+}
+
+.pomodoro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -180px;
+    width: 360px;
+    height: 400px;
+}
+
+.pomodoro__head {
+    margin: 0;
+    position: relative;
+    top: 40px;
+    left: 70px;
+    display: block;
+    color: #27ae60;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #27ae60;
+    border-left: 100px solid transparent;
+    transform: rotate(-50deg) skew(20deg);
+    z-index: 5;
+}
+.pomodoro__head:before {
+    border-bottom: 80px solid #27ae60;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg) skew(20deg);
+    z-index: 5;
+  }
+  .pomodoro__head:after {
+    position: absolute;
+    display: block;
+    color: #27ae60;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #27ae60;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg) skew(20deg);
+    content: '';
+    z-index: 5;
+  }
+
+.pomodoro__display {
+    width: 350px;
+    height: 300px;
+}
+
+.pomodoro__device {
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -150px;
+    background-color: #e74c3c;
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.pomodoro__time {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -150px;
+    color: #ecf0f1;
+    font-size: 60px;
+    text-align: center;
+}
+
+.pomodoro__controller {
+    width: 360px;
+    height: 100px;
+}
+
+.pomodoro__btn {
+    float: left;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+}
+
+.pomodoro__btn--phase {
+    color: #bdc3c7;
+    font-size: 24px;
+    line-height: 100px;
+}
+
+.pomodoro__btn--work {
+    color: #bdc3c7;
+    font-size: 30px;
+    line-height: 100px;
+}
+.pomodoro__btn--work:hover {
+    color: #3498db;
+    font-size: 40px;
+    transition: font-size 0.2s;
+    transition: color 0.2s; 
+}
+
+.pomodoro__btn--pause {
+    color: #bdc3c7;
+    font-size: 30px;
+    line-height: 100px;
+    display: none;
+}
+.pomodoro__btn--pause:hover {
+    color: #c0392b;
+    font-size: 40px;
+    transition: font-size 0.2s;
+    transition: color 0.2s; 
+}
+
+.pomodoro__btn--reset {
+    color: #bdc3c7;
+    font-size: 24px;
+    line-height: 100px;
+}
+.pomodoro__btn--reset:hover {
+    color: #2ecc71;
+    font-size: 36px;
+    transition: font-size 0.2s;
+    transition: color 0.2s; 
+}
+
+footer {
+    clear: both;
+    color:#ecf0f1;
+    text-align: right;
+    font-size: 12px;
+}
