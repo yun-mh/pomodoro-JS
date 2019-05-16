@@ -4,7 +4,7 @@
 ポモドーロタイマーについては、次のリンク先を参照してください：https://en.wikipedia.org/wiki/Pomodoro_Technique
 
 ### 使い方
-1. 次のリンクに接続する : 
+1. 次のリンクに接続する : https://yun-mh.github.io/pomodoro-JS/
 2. プレイボタンでタイマーをスタートする。
 3. ポーズ, リセットボタンで操作しながらタイマーを使う。
 
@@ -20,7 +20,7 @@
 About the pomodoro timer, read this link : https://en.wikipedia.org/wiki/Pomodoro_Technique
 
 ### How to use
-1. Go to the link : 
+1. Go to the link : https://yun-mh.github.io/pomodoro-JS/
 2. Countdown starts by pushing the play button.
 3. Control the timer whenever you need to pause or reset.
 
@@ -36,7 +36,7 @@ About the pomodoro timer, read this link : https://en.wikipedia.org/wiki/Pomodor
 포모도로 타이머에 관한 내용은 다음 링크를 참조해주세요 : https://en.wikipedia.org/wiki/Pomodoro_Technique
 
 ### 사용법
-1. 페이지에 접속 : 
+1. 페이지에 접속 : https://yun-mh.github.io/pomodoro-JS/
 2. 플레이 버튼으로 타이머 시작
 3. 일시정지, 리셋 등으로 조작 가능
 
